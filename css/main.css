@@ -130,7 +130,15 @@ p{
 address{
   font-style: normal;
 }
-
+header
+.hero-area img{
+  background-image: url('img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
+  background-size: cover;
+}
+.features img{
+  background-image: url('img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
+  background-size: cover;
+}
   .content-wrapper{
        width: 90%;
        margin: 50px 0;
