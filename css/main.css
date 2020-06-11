@@ -224,11 +224,19 @@ footer h4{
     margin: 20px 0;
 }
 footer .social-icons p{
+    background-color: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+footer .social-icons p i{
+    font-size: 1.3125em;
+
+}
 footer .copyright{
     margin: 20px 0;
 }
@@ -301,11 +309,12 @@ input[type=button]{
 .features article{
     width: 63%;
     margin: 30px 0;
-    text-align: center;
+
 }
 
 .features p{
     margin: 0;
+    text-align: center;
 }
 
 .features .features-items{
@@ -545,6 +554,11 @@ header nav ul li{
     width: 40%;
     margin: 0;
   }
+
+  .features h2{
+    margin-bottom: 20px;
+  }
+
   .features article{
     display: flex;
     justify-content: center;
@@ -557,7 +571,7 @@ header nav ul li{
     margin-bottom: 30px;
   }
   .features .item-description{
-    width: 50%;
+    width: 62%;
   }
   .reviews article{
     display: flex;
@@ -592,6 +606,11 @@ header nav ul li{
   }
   footer p{
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
   footer .copyright{
     width: 100%;
