@@ -133,10 +133,10 @@ figure{
   margin: 0;
 }
 
-  .content-wrapper{
-       width: 90%;
-       margin: 50px 0;
-   }
+.content-wrapper{
+   width: 90%;
+   margin: 50px 0;
+}
 
 /********** base header - footer styles **********/
 header,
@@ -190,11 +190,12 @@ header nav ul{
     width: 100%;
     display: flex;
     justify-content: space-around;
-
+    margin: 0;
 }
 
 header nav ul li{
   font-size: 1.125em;
+  padding: 0 30px 5px 0;
 }
 /* footer styles */
 footer{
@@ -289,6 +290,7 @@ input[type=button]{
   text-align: center;
   text-transform: uppercase;
 }
+
 .features{
     display: flex;
     justify-content: center;
@@ -302,6 +304,7 @@ input[type=button]{
     font-size: 3.75em;
     margin-bottom: 40px;
 }
+
 .features h2{
     margin-bottom: 60px;
 }
@@ -309,7 +312,6 @@ input[type=button]{
 .features article{
     width: 63%;
     margin: 30px 0;
-
 }
 
 .features p{
@@ -330,10 +332,12 @@ input[type=button]{
     flex-flow: row wrap;
     background-color: #2a423a;
 }
+
 .reviews h2{
     margin-bottom: 40px;
     line-height: 1;
 }
+
 .reviews h3{
     width: 55%;
     margin: 20px 0;
@@ -347,7 +351,15 @@ input[type=button]{
     flex-flow: row wrap;
     background-color: #527158;
 }
-
+.mission .content-wrapper{
+    margin: 30px 0 50px 0;
+}
+.contact-section .content-wrapper{
+    margin: 36px 0 50px 0;
+}
+.contact-content h4{
+    padding: 0 0 1em 0;
+}
 .map figure{
     position: relative;
     padding-bottom: 80%;
@@ -496,7 +508,7 @@ input[type=button]{
   /** TABLET STYLES HERE **/
   .content-wrapper{
       max-width: 640px;
-      margin: 100px 0;
+      margin: 60px 0 100px 0;
   }
   h2{
     font-size: 2.25em;
@@ -521,15 +533,17 @@ input[type=button]{
   header nav{
     width: 20%;
     justify-content: space-between;
+    margin: 0 40px;
   }
 
   header nav ul{
     justify-content: space-between;
+    padding-top: 5px;
   }
 
-header nav ul li{
-  font-size: 1em;
-}
+  header nav ul li{
+    font-size: 1em;
+  }
 
   .header-divider{
     display: none;
@@ -570,7 +584,7 @@ header nav ul li{
     font-size: 4.5em;
     margin-bottom: 30px;
   }
-  .features .item-description{
+  .features-item-description{
     width: 62%;
   }
   .reviews article{
@@ -616,7 +630,9 @@ header nav ul li{
     width: 100%;
   }
   /***** About Page *****/
-
+  .mission .content-wrapper{
+      margin: 75px 0 100px 0;
+  }
   .mission-content{
     display: flex;
     justify-content: space-between;
@@ -627,6 +643,9 @@ header nav ul li{
   .mission-content p{
     width: 45%;
   }
+  .contact-section .content-wrapper{
+    margin: 75px 0 100px 0;
+  }
   .contact-section .content-wrapper h2{
     width: 80%;
   }
@@ -634,6 +653,7 @@ header nav ul li{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin: 0 80px 0 0;
   }
   .map figure{
     padding-bottom: 46%;
@@ -643,7 +663,11 @@ header nav ul li{
     justify-content: space-between;
   }
   .faq-content{
-    flex-basis: 40%;
+    flex-basis: 46%;
+  }
+  .faq-content h4{
+    font-size: 1.125em;
+    line-height: 1.125em;
   }
   .faq h2{
     width: 100%
@@ -673,6 +697,9 @@ header nav ul li{
     width: 25%;
   }
 
+  header nav ul{
+    margin: 0 0 0 60px;
+  }
   .hero-area h1{
     width: 80%;
     font-size: 3.75em;
@@ -722,6 +749,9 @@ header nav ul li{
   /***** FAQ Page *****/
   .faq h2{
     width: 100%;
+  }
+  .faq .content-wrapper{
+    margin-bottom: 40px;
   }
 }
 
